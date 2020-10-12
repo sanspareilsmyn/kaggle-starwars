@@ -80,7 +80,7 @@ def aggregate(flag, sc):
     for e in result:
         print(e)
 
-    line = open('aggregated_feat.txt', 'w')
+    line = open('../output/aggregated_feat.txt', 'w')
     for r in result:
         for e in r:
             line.write('{}{}'.format(e, ' '))
