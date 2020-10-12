@@ -64,17 +64,28 @@ def aggregate(flag, sc):
                         special_case.append(i)
                         s2.remove(i)
                         break
-    result.append(special_case)
+    special_case = np.array(special_case).flatten()
+    result.append(special_case.tolist())
 
+    #print(result)
     # Averaging
     for i in s1:
         for j in s2:
             if i[0] == j[0]:
                 a = np.array(i)
                 b = np.array(j)
-                print(len(a), len(b))
+                tmp = (a+b)/2
+                result.append(tmp.tolist())
 
+    for e in result:
+        print(e)
 
+    line = open('aggregated_feat.txt', 'w')
+    for r in result:
+        for e in r:
+            line.write('{}{}'.format(e, ' '))
+        line.write('\n')
+    line.close()
 
 if __name__ == "__main__":
     f, sc = special_case()
