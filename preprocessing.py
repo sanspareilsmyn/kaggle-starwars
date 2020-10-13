@@ -62,3 +62,15 @@ for character in json_link_m:
 line.close()
 
 print('Mentions Edgelist is created!')
+# Create id_map.json, inv_id_map.json
+json_file = json.dumps(id_map)
+f = open("id_map.json","w")
+f.write(json_file)
+f.close()
+print('ID Map is Created!')
+
+json_file = json.dumps(inv_id_map)
+f = open("inv_id_map.json","w")
+f.write(json_file)
+f.close()
+print('Inv Map is Created!')
