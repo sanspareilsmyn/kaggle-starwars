@@ -76,6 +76,8 @@ By setting p, q, we can set return-parameter and in-out parameter.
 <img width="334" alt="스크린샷 2020-10-11 오후 7 24 19" src="https://user-images.githubusercontent.com/52681837/95676201-6092e780-0bf7-11eb-85bf-8612f1020568.png">
 
 
-### 3) ML
+### 3) Link Prediction
+Please execute network_analysis.ipynb!  
 
-### 4) Parameter Tuning and Optimization
+<img width="495" alt="스크린샷 2020-10-13 오후 8 22 55" src="https://user-images.githubusercontent.com/52681837/95854527-0da16780-0d92-11eb-980f-9c09e5a4ac2d.png">
+
