@@ -1,5 +1,7 @@
 # Friends Recommendation System with Star Wars Social Network
 
+[Kaggle Link](https://www.kaggle.com/sangminyoon/friend-recommendation-system-with-starwars-dataset)
+
 ## 1. Project Intro  
 
 Star Wars series is awesome! It is one of the most greatest fictional worlds existing in our culture.  
